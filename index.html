@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,108 +26,305 @@
         </div>
     </div>
 
+    <div class="menu-toggle">
+        <div class="hamburger">
+            <span></span>
+        </div>
+    </div>
+
 <div id="body">
-    <div id="sidebar">
+
+    <aside class="sidebar">
+        <nav class="menu">
         <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>Updates</li></a>
-            <a href="#"><li>Bookmarks</li></a>
-            <a href="#"><li>Advanced Search</li></a>
-            <a href="#"><li>Reading History</li></a>
-            <li><form><select>
+            <a href="#" class="menu-item"><li>Home</li></a>
+            <a href="#" class="menu-item"><li>Updates</li></a>
+            <a href="#" class="menu-item"><li>Bookmarks</li></a>
+            <a href="#" class="menu-item"><li>Advanced Search</li></a>
+            <a href="#" class="menu-item"><li>Reading History</li></a>
+            <a href="#" class="menu-item"><li><form><select>
                 <option>Discover</option>
                 <a href="#"><option>Manga</option></a>
                 <a href="#"><option>Manhwa</option></a>
                 <a href="#"><option>Manhua</option></a>
                 <a href="#"><option>Novels</option></a>
-            </select></form></li>
-            <a href="#"><li>Random</li></a>
-            <a href="#"><li>Account</li></a>
+            </select></form></li></a>
+            <a href="#" class="menu-item"><li>Random</li></a>
+            <a href="#" class="menu-item"><li>Account</li></a>
         </ul>
-    </div>
+        </nav>
+    </aside>
 
     <div id="header">
         <div class="main">Most Popular</div>
         <div class="sub1">Manga / Manhwa / Manhua</div>
     </div>
     
+<div class="slideshow1">
     <div id="boxes" class="clearfix">
-        <div class="box">
-            <figure>
-                <img src="pictures/GOAT.jpg">
-                <figcaption>Omniscient Reader's Viewpoint</figcaption>
-            </figure>
+
+        <div class="slides1 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/GOAT.jpg">
+                    <figcaption>Omniscient Reader's Viewpoint</figcaption>
+                </figure>
+            </div>
+            
+            <div class="box">
+                <figure>
+                    <img src="pictures/codegeass.jpg">
+                    <figcaption>Code Geass: Lelouch of the Rebellion</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/codegeass.jpg">
-                <figcaption>Code Geass: Lelouch of the Rebellion</figcaption>
-            </figure>
+
+        <div class="slides1 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/nisekoi.png">
+                    <figcaption>Nisekoi</figcaption>
+                </figure>
+            </div>
+        
+            <div class="box">
+                <figure>
+                    <img src="pictures/reborn.png">
+                    <figcaption>REBORN!</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/nisekoi.png">
-                <figcaption>Nisekoi</figcaption>
-            </figure>
+
+        <div class="slides1 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/TOG.png">
+                    <figcaption>Tower of God</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/TOG.png">
+                    <figcaption>Tower of God</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/reborn.png">
-                <figcaption>REBORN!</figcaption>
-            </figure>
+
+        <div class="slides1 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/TOG.png">
+                    <figcaption>Tower of God</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/TOG.png">
+                    <figcaption>Tower of God</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/TOG.png">
-                <figcaption>Tower of God</figcaption>
-            </figure>
+
+        <div class="slides1 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/TOG.png">
+                    <figcaption>Tower of God</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/TOG.png">
+                    <figcaption>Tower of God</figcaption>
+                </figure>
+            </div>
         </div>
+
+    </div>
+        <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+</div>
+<br>
+    <div style="text-align:center">
+        <span class="dot1" onclick="currentSlide1(1)"></span>
+        <span class="dot1" onclick="currentSlide1(2)"></span>
+        <span class="dot1" onclick="currentSlide1(3)"></span>
+        <span class="dot1" onclick="currentSlide1(4)"></span>
+        <span class="dot1" onclick="currentSlide1(5)"></span>
     </div>
 
     <div id="header">
         <div class="sub2">Novels</div>
     </div>
 
+<div class="slideshow2">
     <div id="boxes" class="clearfix">
-        <div class="box">
-            <figure>
-                <img src="pictures/GOAT-N.png">
-                <figcaption>Omniscient Reader's Viewpoint</figcaption>
-            </figure>
+
+        <div class="slides2 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/GOAT-N.png">
+                    <figcaption>Omniscient Reader's Viewpoint</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/Mushokutensei-N.png">
+                    <figcaption>Mushoku Tensei</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/Mushokutensei-N.png">
-                <figcaption>Mushoku Tensei</figcaption>
-            </figure>
+
+        <div class="slides2 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/overgeared.png">
+                    <figcaption>Overgeared</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/the eminence in shadow.png">
+                    <figcaption>The Eminence in Shadow</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/overgeared.png">
-                <figcaption>Overgeared</figcaption>
-            </figure>
+
+        <div class="slides2 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/TBATE.png">
+                    <figcaption>The Beginning After the End</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/TBATE.png">
+                    <figcaption>The Beginning After the End</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/the eminence in shadow.png">
-                <figcaption>The Eminence in Shadow</figcaption>
-            </figure>
+
+        <div class="slides2 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/TBATE.png">
+                    <figcaption>The Beginning After the End</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/TBATE.png">
+                    <figcaption>The Beginning After the End</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="box">
-            <figure>
-                <img src="pictures/TBATE.png">
-                <figcaption>The Beginning After the End</figcaption>
-            </figure>
+
+        <div class="slides2 fade">
+            <div class="box">
+                <figure>
+                    <img src="pictures/TBATE.png">
+                    <figcaption>The Beginning After the End</figcaption>
+                </figure>
+            </div>
+
+            <div class="box">
+                <figure>
+                    <img src="pictures/TBATE.png">
+                    <figcaption>The Beginning After the End</figcaption>
+                </figure>
+            </div>
         </div>
+
+    </div>
+        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot2" onclick="currentSlide2(1)"></span>
+        <span class="dot2" onclick="currentSlide2(2)"></span>
+        <span class="dot2" onclick="currentSlide2(3)"></span>
+        <span class="dot2" onclick="currentSlide2(4)"></span>
+        <span class="dot2" onclick="currentSlide2(5)"></span>
     </div>
 </div>
         <div id="footer">
             <a href="#"><div id="logoimg2"><img src="pictures/Logo.png"></div></a>
-            <div id="links">
-                <a href="https://github.com/Quandale-DingleJr"><h3>Ronn Saimund U. Rosarito</h3></a>
-                <a href="https://github.com/Quandale-DingleJr"><h3>rosaritoronnsaimund@gmail.com</h3></a>
+            <div id="name">
+                <h3>Ronn Saimund U. Rosarito</h3>
+                <h3>rosaritoronnsaimund@gmail.com</h3>
             </div>
         </div>
 </div>
+<script>
+    let slideIndex1 = 1;
+    let slideIndex2 = 1;
+    showSlides1(slideIndex1);
+    showSlides2(slideIndex2);
+
+    function plusSlides1(n) {
+        showSlides1(slideIndex1 += n);
+    }
+
+    function currentSlide1(n) {
+        showSlides1(slideIndex1 = n);
+    }
+
+    function showSlides1(n) {
+        let i;
+        let slides1 = document.getElementsByClassName("slides1");
+        let dots1 = document.getElementsByClassName("dot1");
+        if (n > slides1.length) {slideIndex1 = 1}
+        if (n < 1) {slideIndex1 = slides1.length}
+        for (i = 0; i < slides1.length; i++) {
+            slides1[i].style.display = "none";
+        }
+        for (i = 0; i < dots1.length; i++) {
+            dots1[i].className = dots1[i].className.replace(" active", "");
+        }
+        slides1[slideIndex1-1].style.display = "block";
+        dots1[slideIndex1-1].className += " active";
+    }
+
+    function plusSlides2(n) {
+        showSlides2(slideIndex2 += n);
+    }
+
+    function currentSlide2(n) {
+        showSlides2(slideIndex2 = n);
+    }
+
+    function showSlides2(n) {
+        let i;
+        let slides2 = document.getElementsByClassName("slides2");
+        let dots2 = document.getElementsByClassName("dot2");
+        if (n > slides2.length) {slideIndex2 = 1}
+        if (n < 1) {slideIndex2 = slides2.length}
+        for (i = 0; i < slides2.length; i++) {
+            slides2[i].style.display = "none";
+        }
+        for (i = 0; i < dots2.length; i++) {
+            dots2[i].className = dots2[i].className.replace(" active", "");
+        }
+        slides2[slideIndex2-1].style.display = "block";
+        dots2[slideIndex2-1].className += " active";
+    }
+
+    const menu_toggle = document.querySelector('.menu-toggle');
+	const sidebar = document.querySelector('.sidebar');
+
+	menu_toggle.addEventListener('click', () => {
+	    menu_toggle.classList.toggle('is-active');
+		sidebar.classList.toggle('is-active');
+		});
+</script>
 </body>
 </html>
