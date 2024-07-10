@@ -230,17 +230,9 @@ li:hover{
 #boxes .box:hover{
     border: solid white;
 }
-#boxes .box:nth-child(1){
-    margin: 0 4% 0 0;
-}
-#boxes .box:nth-child(3){
-    margin: 0 4% 0 0;
-}
-#boxes .box:nth-child(5){
-    margin: 0 4% 0 0;
-}
+
 figure{
-    height: 15vh;
+    height: 120px;
 }
 figure img{
     border-radius: 10px;
@@ -341,6 +333,11 @@ figcaption{
     width: 100%;
     margin: auto;
 }
+@media (min-width: 676px){
+    #boxes .box{
+        margin: 0 3%;
+    }
+}
 @media (min-width: 768px){
     #nav{
         display: block;
@@ -362,9 +359,10 @@ figcaption{
     #boxes .box{
         width: 120px;
         height: 220px;
+        margin: 0 4%;
     }
     figure{
-        height: 18vh;
+        height: 140px;
     }
     figure img{
         border-radius: 12px;
@@ -377,9 +375,10 @@ figcaption{
     #boxes .box{
         width: 135px;
         height: 240px;
+        margin: 0 5%;
     }
     figure{
-        height: 20vh;
+        height: 160px;
     }
     figure img{
         border-radius: 18px;
@@ -451,7 +450,7 @@ figcaption{
         border-radius: 20px;
     }
     figure{
-        height: 23vh;
+        height: 180px;
     }
     figure img{
         border-radius: 15px;
