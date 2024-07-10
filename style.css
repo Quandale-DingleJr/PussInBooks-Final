@@ -217,8 +217,8 @@ li:hover{
     text-align: center;
 }
 #boxes .box{
-    width: 100px;
-    height: 200px;
+    width: 90px;
+    height: 180px;
     border: 3px solid #000000;
     background: #676767;
     padding: 10px 10px;
@@ -230,13 +230,11 @@ li:hover{
 #boxes .box:hover{
     border: solid white;
 }
-
 figure{
-    height: 120px;
+    height: 90px;
 }
 figure img{
     border-radius: 10px;
-    width: 100%;
     height: 100%;
 }
 figcaption{
@@ -263,7 +261,7 @@ figcaption{
 .prev, .next{
     cursor: pointer;
     position: absolute;
-    top: 0%;
+    top: -10%;
     width: auto;
     margin-top: 110px;
     padding: 16px;
@@ -357,15 +355,12 @@ figcaption{
         font-size: 16px;
     }
     #boxes .box{
-        width: 120px;
-        height: 220px;
+        width: 100px;
+        height: 190px;
         margin: 0 4%;
     }
     figure{
-        height: 140px;
-    }
-    figure img{
-        border-radius: 12px;
+        height: 110px;
     }
 }
 @media (min-width: 1110px){
@@ -373,15 +368,12 @@ figcaption{
         display: inline-block;
     }
     #boxes .box{
-        width: 135px;
-        height: 240px;
+        width: 120px;
+        height: 220px;
         margin: 0 5%;
     }
     figure{
-        height: 160px;
-    }
-    figure img{
-        border-radius: 18px;
+        height: 140px;
     }
     figcaption{
         font-size: 14px;
