@@ -185,7 +185,6 @@ li:hover{
     text-align: left;
     line-height: 50px;
     font-weight: bold;
-
 }
 .main{
     font-size: 18px;
@@ -213,7 +212,7 @@ li:hover{
     width: 100%;
     min-height: auto;
     background-color: #272727;
-    padding: 2% 2% 2% 1%;
+    padding: 2%;
     text-align: center;
 }
 #boxes .box{
@@ -226,18 +225,10 @@ li:hover{
     border-radius: 15px;
     transition: 0.3s ease-out;
     cursor: pointer;
+    margin: 3px;
 }
 #boxes .box:hover{
     border: solid white;
-}
-#boxes .box:nth-child(1){
-    margin: 0 4% 0 0;
-}
-#boxes .box:nth-child(3){
-    margin: 0 4% 0 0;
-}
-#boxes .box:nth-child(5){
-    margin: 0 4% 0 0;
 }
 figure{
     height: 15vh;
@@ -251,74 +242,6 @@ figcaption{
     text-align: center;
     font-size: 12px;
     font-weight: 600;
-}
-.slideshow1{
-    width: 100%;
-    position: relative;
-    margin: auto;
-}
-.slideshow2{
-    width: 100%;
-    position: relative;
-    margin: auto;
-}
-.slides1{
-    display: none;
-}
-.slides2{
-    display: none;
-}
-.prev, .next{
-    cursor: pointer;
-    position: absolute;
-    top: 0%;
-    width: auto;
-    margin-top: 110px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    transition: 0.6s ease;
-    border-radius: 0 2px 2px 0;
-    user-select: none;
-}
-.next{
-    right: 0;
-    border-radius: 2px 0 0 2px;
-}
-.prev:hover, .next:hover{
-    background-color: rgba(0,0,0,0.8);
-}
-.dot1{
-    cursor: pointer;
-    height: 11px;
-    width: 11px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.dot2{
-    cursor: pointer;
-    height: 11px;
-    width: 11px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active, .dot:hover{
-    background-color: #717171;
-}
-.fade{
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-@keyframes fade{
-    from {opacity: .4}
-    to {opacity: 1}
 }
 #footer{
     width: 100%;
@@ -404,9 +327,6 @@ figcaption{
     }
     #boxes{
         border-bottom-right-radius: 30px;
-    }
-    .menu-toggle{
-        display: none;
     }
     .sidebar{
         border-radius: 20px 0 0 20px;
