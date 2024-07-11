@@ -238,23 +238,30 @@ figure img{
     display: inline-table;
     border-radius: 10px;
     height: 100%;
+    width: 20%;
 }
 figcaption{
     float: left;
-    margin: 5px 0 3px 8px;
+    margin: 5px 0 0px 8px;
     display: inline-table;
     font-size: 15px;
     font-weight: 600;
 }
-figure p{
-    text-align: left;
+.ellipsis1{
+    display: inline-block;
+    width: 235px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
 }
-.ellipsis{
+.ellipsis2{
     display: inline-block;
     width: 190px;
     white-space: nowrap;
     overflow: hidden !important;
     text-overflow: ellipsis;
+    text-align: left;
+    font-size: 13px;
 }
 #footer{
     width: 100%;
@@ -305,6 +312,12 @@ figure p{
     figure img{
         border-radius: 12px;
     }
+    .ellipsis1{
+        width: 250px;
+    }
+    .ellipsis2{
+        font-size: 14px;
+    }
 }
 @media (min-width: 1110px){
     input[type="button"]{
@@ -318,19 +331,19 @@ figure p{
         height: 120px;
     }
     figcaption{
-        font-size: 17.5px;
+        font-size: 16.5px;
     }
-    figure p{
-        font-size: 18px;
+    .ellipsis1{
+        width: 275px;
     }
-    .ellipsis{
-        width: 210px;
+    .ellipsis2{
+        margin-top: 3px;
+        margin-left: -30px;
+        width: 190px;
+        font-size: 16px;
     }
 }
 @media (min-width: 1200px){
-    figure p{
-        margin-left: 10px;
-    }
     .ellipsis{
         width: 240px;
     }
@@ -364,7 +377,7 @@ figure p{
         width: 50%;
         top: 8.1vh;
         left: 92%;
-        height: 35vh;
+        height: 270px;
         background-color: rgba(0, 0, 0, 0.612);
         padding: 0 1rem;
     }
